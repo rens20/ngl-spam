@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NGL spammer</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta property="og:title" content="NGL spammer">
+  <meta property="og:image" content="logo.svg">
+</head>
+
+<body>
+  <script src="script.js"></script>
+  <main>
+  
+    <div id="container">
+      <div id="container-header">
+        <textarea id="username" placeholder="Username here..."></textarea>
+      </div>
+      <div id="message-container">
+        <textarea id="message" placeholder="Send him spammed messages..."></textarea>
+      </div>
+      <div id="num-messages-container">
+        <label for="num-messages">Number of Messages:</label>
+        <input type="number" id="num-messages" min="1" value="1">
+            <p><strong>sending.. &nbsp;</strong></p>
+            <p id="total-req">0</p>
+            <p><strong>&nbsp;Sent:&nbsp;</strong></p>
+            <p id="total-sent">0</p>
+         
+      </div>
+    </div>
+    <div id="response-container">
+      <p id="response"></p>
+    </div>
+    <div id="send-button-container">
+      <button id="send-button">Spam</button>
+    </div>
+   
+  </main>
+</body>
+
+</html>
